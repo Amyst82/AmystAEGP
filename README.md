@@ -91,5 +91,6 @@ using (var client = new HttpClient())
     }
 }
 ```
-![ezgif-1d2a0e18159e56](https://github.com/user-attachments/assets/ccc22588-ccc3-4789-ac6e-b041c4e0c853)
+
+![](https://s6.gifyu.com/images/bzJ4W.gif)
 
