@@ -12,11 +12,15 @@
 2. **Install** the plugin by placing the entire folder in:  
    - **Windows:** `...\Adobe After Effects *\Support Files\Plug-ins\`  
    - **Mac:** `N/A yet`
+3. **Download** Alertzy app on your phone:
+   - **IOS:** [AppStore](https://apps.apple.com/us/app/alertzy-push-notifications/id1532861710)
+   - **Android:** [GooglePlay](https://play.google.com/store/apps/details?id=notify.me.app)
 
 ## 🔧 Configuration  
 
 Open the **settings.json** in the **...\Support Files\Plug-ins\Amyst** folder to set your alertzy account key and configure post-render actions:  
 
+- **AlertzyKey** - Your alertzy account key from the mobile app.
 - **Notification** – Set to `true` if you want to get notification once your render is complete.  
 - **PurgeSave** – `Purge` RAM cache (disk cache as well since 24.3) and `save your project`.
 - **PurgeSaveQuit** – Purge RAM cache, save your project and `quit` After Effects.  
