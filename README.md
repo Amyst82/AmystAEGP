@@ -40,7 +40,7 @@ I've managed to implement a couple of `GET` and `POST` endpoints. Local API serv
 ### Examples
 ## csharp
 ```csharp
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create(https://localhost:13377/api/PresetsList);
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:13377/api/PresetsList");
 request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
 
 using(HttpWebResponse response = (HttpWebResponse)request.GetResponse())
@@ -58,7 +58,7 @@ using(StreamReader reader = new StreamReader(stream))
 ## JavaScript
 ```js
 var effectName = 'S_WarpChroma';
-var url = 'https://localhost:13377/api/ApplyEffect?name=' + effectName;
+var url = 'http://localhost:13377/api/ApplyEffect?name=' + effectName;
 let apiCall = new XMLHttpRequest();
 apiCall.open("GET", url);
 apiCall.send();
@@ -72,7 +72,7 @@ apiCall.onload = () =>
 ```
 ## csharp
 ```csharp
-string apiUrl = "https://localhost:13377/api/ExecuteScript";
+string apiUrl = "http://localhost:13377/api/ExecuteScript";
 string scriptText = "alert('Hello from AEGP!');";
 using (var client = new HttpClient())
 {
