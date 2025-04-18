@@ -92,5 +92,4 @@ using (var client = new HttpClient())
 }
 ```
 
-![](https://s5.ezgif.com/tmp/ezgif-53ad9c1ac18b34.gif)
-
+![](https://s6.gifyu.com/images/bpnx8.gif)
